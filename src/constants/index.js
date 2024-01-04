@@ -22,7 +22,14 @@ import {
   carrent,
   jobit,
   tripguide,
+  organHub,
+  deliciousGrounds,
+  dashify,
+  chat,
   threejs,
+  bootstrap,
+  mui,
+
 } from "../assets";
 
 export const navLinks = [
@@ -30,9 +37,13 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
+  // {
+  //   id: "work",
+  //   title: "Work",
+  // },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -42,11 +53,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React JS Developer",
     icon: mobile,
   },
   {
@@ -54,7 +65,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Competitive Programmer",
     icon: creator,
   },
 ];
@@ -73,16 +84,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -97,10 +100,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -109,9 +108,13 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "bootstrap",
+    icon: bootstrap,
   },
+  {
+    name: "mui",
+    icon: mui,
+  }
 ];
 
 const experiences = [
@@ -198,12 +201,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Delicious Grounds",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web application designed to streamline the ordering process for students in the canteen. It facilitates the ordering and payment processes, allowing students to conveniently place their orders online and make payments using various online payment modes.",
     tags: [
       {
-        name: "react",
+        name: "ejs",
         color: "blue-text-gradient",
       },
       {
@@ -211,54 +214,79 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: deliciousGrounds,
+    source_code_link: "https://github.com/Krishnansu/Delicious-Grounds",
+    live_link: "https://delicious-grounds.onrender.com/"
   },
   {
-    name: "Job IT",
+    name: "Organ Hub",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A comprehensive full-stack web-based platform which acts as a centralized hub, connecting hospitals and organ donors to streamline and expedite the fulfillment of organ requirements, especially in emergency situations.",
+    tags: [
+      {
+        name: "ejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: organHub,
+    source_code_link: "https://github.com/Krishnansu/Organ-Hub",
+    live_link: "https://organ-hub-dehc.onrender.com"
+  },
+  {
+    name: "Dashify",
+    description:
+      "A modern and feature-rich Admin Dashboard with a fully functional calendar, dynamic kanban board, feature-rich WYSIWYG editor, and customizable color picker - to boost user productivity.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "syncfusion",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: dashify,
+    source_code_link: "https://github.com/Krishnansu/Admin-Dashboard",
+    live_link: "https://dashify-dashboard.netlify.app/"
   },
   {
-    name: "Trip Guide",
+    name: "Let's Chat",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Room-Based Chat Application that facilitates seamless interactions between multiple users within dedicated rooms, allowing them to send and receive messages in an engaging and efficient manner.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "socket",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: chat,
+    source_code_link: "https://github.com/Krishnansu/Chat-Application",
+    live_link: "https://lets-chat-room.netlify.app/"
   },
 ];
 
