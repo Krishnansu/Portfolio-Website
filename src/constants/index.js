@@ -53,7 +53,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Developer",
+    title: "MERN Stack Developer",
     icon: web,
   },
   {
@@ -206,7 +206,7 @@ const projects = [
       "A web application designed to streamline the ordering process for students in the canteen. It facilitates the ordering and payment processes, allowing students to conveniently place their orders online and make payments using various online payment modes.",
     tags: [
       {
-        name: "ejs",
+        name: "node.js",
         color: "blue-text-gradient",
       },
       {
@@ -216,6 +216,10 @@ const projects = [
       {
         name: "bootstrap",
         color: "pink-text-gradient",
+      },
+      {
+        name: "ejs",
+        color: "blue-text-gradient",
       },
     ],
     image: deliciousGrounds,
@@ -228,7 +232,7 @@ const projects = [
       "A comprehensive full-stack web-based platform which acts as a centralized hub, connecting hospitals and organ donors to streamline and expedite the fulfillment of organ requirements, especially in emergency situations.",
     tags: [
       {
-        name: "ejs",
+        name: "node.js",
         color: "blue-text-gradient",
       },
       {
@@ -238,6 +242,10 @@ const projects = [
       {
         name: "bootstrap",
         color: "pink-text-gradient",
+      },
+      {
+        name: "ejs",
+        color: "blue-text-gradient",
       },
     ],
     image: organHub,

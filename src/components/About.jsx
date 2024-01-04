@@ -48,8 +48,9 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a skilled web developer with experience in JavaScript, 
-        and expertise in frameworks like React and Node.js. I have used
-        BootStrap, MaterialUI and Tailwind CSS across my works for styling purposes.  
+        and expertise in frameworks like React, Node.js and Express.js. I have used
+        BootStrap, MaterialUI and Tailwind CSS across my works for styling purposes. 
+        I have experience with MongoDB as a database solution for my projects. 
         I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
